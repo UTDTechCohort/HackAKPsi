@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">AKPSI GPT</header>
+      <header className="App-header">AKPSI MU RHO GPT</header>
       <div className="message-container">
         {messages.map((msg, idx) => (
           <div key={idx} className={`message ${msg.sender}`}>
